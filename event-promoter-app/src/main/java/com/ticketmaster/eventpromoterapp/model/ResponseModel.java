@@ -7,13 +7,21 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
+
+   /*
+   This class is essentially based on the Gson parser.
+   Because of its structure, once a parse is done, to reparse the already parsed object, a reconversion from the parsed object back to Json
+   is needed. for example: if we want to parse a Json who contains Arraylist and Maps, we first need to parse the first time as a String reader
+   then we use this reader to parse to parse to the desired datatype (Map,list,array...etc) that's why at many places i first parsed the objects
+   to Json (String reader) then parse again to the desired type. If this was not done, a Runtime exception will be thrown saying inconvertible types.
+    */
+
 public class ResponseModel {
     ArrayList<Promoter>totalPromoters=new ArrayList<>();
     List<String>ids=new ArrayList<>();
     List<String>id2=new ArrayList<>();
     ArrayList<String>promotersPerGenre=new ArrayList<>();
     ArrayList<String>genres=new ArrayList<>();
-    int realLength;
 
     public ArrayList<Promoter>getTotalPromoters(ArrayList<String> events){
         HashMap<String,String>event;
