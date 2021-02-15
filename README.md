@@ -7,9 +7,9 @@
 | ----------- | ----------- |  --------------------------| ------------------------|                        
 | GET         |  /stats/states           |                            | ritorna le statististiche di ogni rotta                        |
 | GET         | /event/{id}       |     id event                       | return event per ID                        |
-| GET        |/events/Australia/period     |      data inizio e fine                       | ritorna gli promoter ed eventi dell  australia chiedendo tramite una Hmap la data dell inizio e la data della fine                         |
-| GET       |   /events/New_Zealand/period          |   data inizio e fine                         |      ritorna gli promoter ed eventi dell  australia chiedendo tramite una Hmap la data dell inizio e la data                   |
-|GET          | /events/period        |      data inizio e fine                       |   ritorna gli promoter ed eventi dell  australia chiedendo tramite una Hmap la data dell inizio e la data|  
+| POST        |/events/Australia/period     |      data inizio e fine                       | ritorna gli promoter ed eventi dell  australia chiedendo tramite una Hmap la data dell inizio e la data della fine                         |
+| POST       |   /events/New_Zealand/period          |   data inizio e fine                         |      ritorna gli promoter ed eventi dell  australia chiedendo tramite una Hmap la data dell inizio e la data                   |
+|POST          | /events/period        |      data inizio e fine                       |   ritorna gli promoter ed eventi dell  australia chiedendo tramite una Hmap la data dell inizio e la data|  
 | GET            |          /stats/states/{state_name}             |    nome dell stato                          |      ritorna stat                      |                        
 |  GET           |    /events/promoter/{promoterId}                   |     id stato                         |            ritorna filtri di un promoter                   |
 |  GET           |        /stats/promoter/{promoterId}               |       id promoter                       |                 ritorna statistiche di un promoter                |
