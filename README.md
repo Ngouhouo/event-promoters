@@ -15,3 +15,4 @@
 |  GET           |        /stats/promoter/{promoterId}               |       id promoter                       |                 ritorna statistiche di un promoter                |
 |  GET           |      /events/genre/{segment_name}                 |       segment name                       |                     ritorna gli eventi per segment per genere           |
  ### USE CASE DIAGRAMM :
+![use case promoter](https://user-images.githubusercontent.com/74736550/107983935-1cf62300-6fc7-11eb-9bb2-597e6071217d.PNG)
