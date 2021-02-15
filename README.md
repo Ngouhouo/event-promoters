@@ -23,8 +23,22 @@
 
 
 ### DIAGRAMMA DELLE CLASSI:
+
+# FILTERCLASS
+
 ![australiaEventsInTimeRange](https://user-images.githubusercontent.com/74736395/107986412-4bc2c800-6fcc-11eb-9cb2-ccba72c7031d.png)
 
+
+
+![filterStatsByEventGenre](https://user-images.githubusercontent.com/74736395/107986651-cd1a5a80-6fcc-11eb-8470-a36336badbfe.png)
+
+
+
+![newZealandEventsInTimeRange](https://user-images.githubusercontent.com/74736395/107986659-d4d9ff00-6fcc-11eb-9c8b-f9b0b46b6545.png)
+
+
+
+![totalEventsInTimeRange](https://user-images.githubusercontent.com/74736395/107986672-dc99a380-6fcc-11eb-94c2-c60c51fd1d17.png)
 
 
 ![eventById](https://user-images.githubusercontent.com/74736395/107986492-73b22b80-6fcc-11eb-9cda-9a5e9068e913.png)
@@ -48,12 +62,3 @@
 
 
 
-![filterStatsByEventGenre](https://user-images.githubusercontent.com/74736395/107986651-cd1a5a80-6fcc-11eb-8470-a36336badbfe.png)
-
-
-
-![newZealandEventsInTimeRange](https://user-images.githubusercontent.com/74736395/107986659-d4d9ff00-6fcc-11eb-9c8b-f9b0b46b6545.png)
-
-
-
-![totalEventsInTimeRange](https://user-images.githubusercontent.com/74736395/107986672-dc99a380-6fcc-11eb-94c2-c60c51fd1d17.png)
