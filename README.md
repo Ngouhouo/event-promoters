@@ -23,3 +23,4 @@
 
 
 ### DIAGRAMMA DELLE CLASSI:
+![australiaEventsInTimeRange](https://user-images.githubusercontent.com/74736395/107986412-4bc2c800-6fcc-11eb-9cb2-ccba72c7031d.png)
