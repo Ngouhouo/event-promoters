@@ -6,10 +6,7 @@ import com.ticketmaster.eventpromoterapp.filters.FilterClass;
 import com.ticketmaster.eventpromoterapp.model.Event;
 import com.ticketmaster.eventpromoterapp.parser.ParserClass;
 import com.ticketmaster.eventpromoterapp.stats.StatsGenerator;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.net.*;
@@ -54,7 +51,7 @@ public class RequestController {
     /*returns events in australia within a defined start and end date. takes a s request body a hasMap who contains
     the start and end dates in String.
      */
-    @GetMapping("/events/Australia/period")
+    @PostMapping("/events/Australia/period")
     public String getAuEventsInTimeRange(@RequestBody HashMap<String,String> startEndDate) throws IOException, InterruptedException {
         return filterClass.filterAUEventsByTimeRange(startEndDate);
     }
@@ -63,7 +60,7 @@ public class RequestController {
     /*returns events in new zealand within a defined start and end date. takes a s request body a hasMap who contains
     the start and end dates in String.
      */
-    @GetMapping("/events/New_Zealand/period")
+    @PostMapping("/events/New_Zealand/period")
     public String getNzEventsInTimeRange(@RequestBody HashMap<String,String> startEndDate) throws IOException, InterruptedException {
         return filterClass.filterNZEventsByTimeRange(startEndDate);
     }
@@ -71,7 +68,7 @@ public class RequestController {
     /*returns the event in the defined period with no respect to the country (state) ie. it returns events in the given period of
     australia and new zealand
      */
-    @GetMapping("/events/period")
+    @PostMapping("/events/period")
     String mergeEventPeriods(@RequestBody HashMap<String,String> startEndDate) throws IOException, InterruptedException {
         return filterClass.mergeEventPeriods(startEndDate);
     }
