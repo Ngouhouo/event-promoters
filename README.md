@@ -26,11 +26,20 @@
 ![australiaEventsInTimeRange](https://user-images.githubusercontent.com/74736395/107986412-4bc2c800-6fcc-11eb-9cb2-ccba72c7031d.png)
 
 
+
 ![eventById](https://user-images.githubusercontent.com/74736395/107986492-73b22b80-6fcc-11eb-9cda-9a5e9068e913.png)
 
 
+
 ![filterEventsFromPromoterId](https://user-images.githubusercontent.com/74736395/107986612-b83dc700-6fcc-11eb-8fb3-d1da7b6d20a9.png)
+
+
+
 ![filterEventsFromPromoterId](https://user-images.githubusercontent.com/74736395/107986612-b83dc700-6fcc-11eb-8fb3-d1da7b6d20a9.png)
+
+
+
+
 ![filterStatesStats](https://user-images.githubusercontent.com/74736395/107986628-bffd6b80-6fcc-11eb-82b5-a47bd9723c14.png)
 ![filterStatisticsByPromoterId](https://user-images.githubusercontent.com/74736395/107986635-c5f34c80-6fcc-11eb-9172-f3f161d2d564.png)
 ![filterStatsByEventGenre](https://user-images.githubusercontent.com/74736395/107986651-cd1a5a80-6fcc-11eb-8470-a36336badbfe.png)
