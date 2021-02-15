@@ -20,3 +20,6 @@
 
  ### DIAGRAMMA DELLE CLASSI:
 ![ProjectClassDiagram](https://user-images.githubusercontent.com/74736395/107986104-a90a4980-6fcb-11eb-81ba-28850704aa61.png)
+
+
+### DIAGRAMMA DELLE CLASSI:
