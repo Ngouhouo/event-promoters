@@ -38,7 +38,6 @@
 
 
 
-![eventById](https://user-images.githubusercontent.com/74736395/107986492-73b22b80-6fcc-11eb-9cda-9a5e9068e913.png)
 
 
 
@@ -50,6 +49,8 @@
 
 ### STATSGENERATOR
 
+
+![eventById](https://user-images.githubusercontent.com/74736395/107986492-73b22b80-6fcc-11eb-9cda-9a5e9068e913.png)
 
 
 
