@@ -45,7 +45,7 @@
 
 
 
-
+###STATSGENERATOR
 
 
 ![eventById](https://user-images.githubusercontent.com/74736395/107986492-73b22b80-6fcc-11eb-9cda-9a5e9068e913.png)
@@ -58,6 +58,8 @@
 
 
 ![filterStatesStats](https://user-images.githubusercontent.com/74736395/107986628-bffd6b80-6fcc-11eb-82b5-a47bd9723c14.png)
+
+###PARSECLASS
 
 
 
