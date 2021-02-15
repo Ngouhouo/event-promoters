@@ -41,20 +41,18 @@
 ![eventById](https://user-images.githubusercontent.com/74736395/107986492-73b22b80-6fcc-11eb-9cda-9a5e9068e913.png)
 
 
-
-
-
 ![totalEventsInTimeRange](https://user-images.githubusercontent.com/74736395/107986672-dc99a380-6fcc-11eb-94c2-c60c51fd1d17.png)
 
 
 
 
 
+
+![eventById](https://user-images.githubusercontent.com/74736395/107986492-73b22b80-6fcc-11eb-9cda-9a5e9068e913.png)
+
 ![filterEventsFromPromoterId](https://user-images.githubusercontent.com/74736395/107986612-b83dc700-6fcc-11eb-8fb3-d1da7b6d20a9.png)
 
 
-
-![filterEventsFromPromoterId](https://user-images.githubusercontent.com/74736395/107986612-b83dc700-6fcc-11eb-8fb3-d1da7b6d20a9.png)
 
 
 
