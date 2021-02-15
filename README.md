@@ -30,3 +30,9 @@
 
 
 ![filterEventsFromPromoterId](https://user-images.githubusercontent.com/74736395/107986612-b83dc700-6fcc-11eb-8fb3-d1da7b6d20a9.png)
+![filterEventsFromPromoterId](https://user-images.githubusercontent.com/74736395/107986612-b83dc700-6fcc-11eb-8fb3-d1da7b6d20a9.png)
+![filterStatesStats](https://user-images.githubusercontent.com/74736395/107986628-bffd6b80-6fcc-11eb-82b5-a47bd9723c14.png)
+![filterStatisticsByPromoterId](https://user-images.githubusercontent.com/74736395/107986635-c5f34c80-6fcc-11eb-9172-f3f161d2d564.png)
+![filterStatsByEventGenre](https://user-images.githubusercontent.com/74736395/107986651-cd1a5a80-6fcc-11eb-8470-a36336badbfe.png)
+![newZealandEventsInTimeRange](https://user-images.githubusercontent.com/74736395/107986659-d4d9ff00-6fcc-11eb-9c8b-f9b0b46b6545.png)
+![totalEventsInTimeRange](https://user-images.githubusercontent.com/74736395/107986672-dc99a380-6fcc-11eb-94c2-c60c51fd1d17.png)
