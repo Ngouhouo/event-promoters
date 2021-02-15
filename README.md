@@ -14,17 +14,17 @@
 |  GET           |    /events/promoter/{promoterId}                   |     id stato                         |            ritorna filtri di un promoter                   |
 |  GET           |        /stats/promoter/{promoterId}               |       id promoter                       |                 ritorna statistiche di un promoter                |
 |  GET           |      /events/genre/{segment_name}                 |       segment name                       |                     ritorna gli eventi per segment per genere           |
- ### USE CASE DIAGRAMM :
+ ## USE CASE DIAGRAMM :
 ![use case promoter](https://user-images.githubusercontent.com/74736550/107983935-1cf62300-6fc7-11eb-9bb2-597e6071217d.PNG)
 
 
- ### DIAGRAMMA DELLE CLASSI:
+ ## DIAGRAMMA DELLE CLASSI:
 ![ProjectClassDiagram](https://user-images.githubusercontent.com/74736395/107986104-a90a4980-6fcb-11eb-81ba-28850704aa61.png)
 
 
-### DIAGRAMMA DELLE CLASSI:
+## DIAGRAMMA DELLE CLASSI:
 
-# FILTERCLASS
+### FILTERCLASS
 
 ![australiaEventsInTimeRange](https://user-images.githubusercontent.com/74736395/107986412-4bc2c800-6fcc-11eb-9cb2-ccba72c7031d.png)
 
