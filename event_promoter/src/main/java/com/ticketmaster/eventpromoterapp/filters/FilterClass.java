@@ -175,7 +175,7 @@ public class FilterClass {
 
         //this first method returns events of australia
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(HOST+"&countryCode=nz&startEndDate={"+startEndDate.get("startDate")+"&"+startEndDate.get("endDate")+"}"))
+                .uri(URI.create(HOST+"&countryCode=nz&startEndDateTime="+startEndDate.get("startDate")+"T00:00:00Z,"+startEndDate.get("endDate")+"T00:00:00Z"))
                 .GET() // GET is default
                 .build();
 
@@ -204,7 +204,7 @@ public class FilterClass {
 
         //this first method returns events of australia
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(HOST+"&countryCode=au&startEndDate={"+startEndDate.get("startDate")+"&"+startEndDate.get("endDate")+"}"))
+                .uri(URI.create(HOST+"&countryCode=au&startEndDateTime="+startEndDate.get("startDate")+"T00:00:00Z,"+startEndDate.get("endDate")+"T00:00:00Z"))
                 .GET() // GET is default
                 .build();
 
@@ -227,7 +227,7 @@ public class FilterClass {
 
     }
 
-  public  String mergeEventPeriods(@RequestBody HashMap<String,String> startEndDate) throws IOException, InterruptedException {
+  public  String mergeEventPeriods(HashMap<String,String> startEndDate) throws IOException, InterruptedException {
         Map<String,String>totalEventsPeriod=new HashMap<>();
         totalEventsPeriod.put("Events in australia",filterAUEventsByTimeRange(startEndDate));
         totalEventsPeriod.put("Events in New Zealand",filterNZEventsByTimeRange(startEndDate));
