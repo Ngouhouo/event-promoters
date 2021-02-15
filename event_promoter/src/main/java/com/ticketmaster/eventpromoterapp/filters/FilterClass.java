@@ -172,6 +172,7 @@ public class FilterClass {
     public String filterNZEventsByTimeRange(HashMap<String,String> startEndDate) throws IOException, InterruptedException {
         HashMap<String,String>eventOutput=new HashMap<>();
         HttpClient client = HttpClient.newHttpClient();
+        ArrayList<String>totalEvents=new ArrayList<>();
 
         //this first method returns events of australia
         HttpRequest request = HttpRequest.newBuilder()
@@ -192,14 +193,16 @@ public class FilterClass {
             eventOutput.put("name",event.get("name"));
             eventOutput.put("id",event.get("id"));
             eventOutput.put("type",event.get("type"));
+            totalEvents.add(eventOutput.toString());
         }
 
-        return new Gson().toJson(eventOutput);
+        return totalEvents.toString();
 
     }
 
     public String filterAUEventsByTimeRange(HashMap<String,String> startEndDate) throws IOException, InterruptedException {
         HashMap<String,String>eventOutput=new HashMap<>();
+        ArrayList<String>totalEvents=new ArrayList<>();
         HttpClient client = HttpClient.newHttpClient();
 
         //this first method returns events of australia
@@ -221,9 +224,10 @@ public class FilterClass {
             eventOutput.put("name",event.get("name"));
             eventOutput.put("id",event.get("id"));
             eventOutput.put("type",event.get("type"));
+            totalEvents.add(eventOutput.toString());
         }
 
-        return new Gson().toJson(eventOutput);
+        return totalEvents.toString();
 
     }
 
