@@ -35,6 +35,8 @@ public class FilterClass {
         HttpResponse<String> response =
                 client.send(request, HttpResponse.BodyHandlers.ofString());
         Map<String, String> rawResponse = new Gson().fromJson(response.body(), HashMap.class);
+        if (rawResponse.get("_embedded")==null)
+            return "wrong segment Name or Segment Name not existing";
         String embeddedReader = new Gson().toJson(rawResponse.get("_embedded"));
         Map<String, String> embeddedResponse = new Gson().fromJson(embeddedReader, HashMap.class);
         String eventsReader = new Gson().toJson(embeddedResponse.get("events"));
@@ -123,7 +125,10 @@ public class FilterClass {
         HttpResponse<String> response =
                 client.send(request, HttpResponse.BodyHandlers.ofString());
         Map<String,String>rawResponse=new Gson().fromJson(response.body(),HashMap.class);
-        String embeddedReader=new Gson().toJson(rawResponse.get("_embedded"));
+       if (rawResponse.get("_embedded")==null)
+           return "wrong promoter id";
+
+       String embeddedReader=new Gson().toJson(rawResponse.get("_embedded"));
         Map<String,String>embeddedResponse=new Gson().fromJson(embeddedReader,HashMap.class);
         String eventsReader=new Gson().toJson(embeddedResponse.get("events"));
         List<String>eventList=new Gson().fromJson(eventsReader,ArrayList.class);
@@ -151,7 +156,10 @@ public class FilterClass {
         HttpResponse<String> response =
                 client.send(request, HttpResponse.BodyHandlers.ofString());
         Map<String,String>rawResponse=new Gson().fromJson(response.body(),HashMap.class);
-        String embeddedReader=new Gson().toJson(rawResponse.get("_embedded"));
+       if (rawResponse.get("_embedded")==null)
+           return "wrong promoter id";
+
+       String embeddedReader=new Gson().toJson(rawResponse.get("_embedded"));
         Map<String,String>embeddedResponse=new Gson().fromJson(embeddedReader,HashMap.class);
         String eventsReader=new Gson().toJson(embeddedResponse.get("events"));
         ArrayList<String>eventList=new Gson().fromJson(eventsReader,ArrayList.class);
