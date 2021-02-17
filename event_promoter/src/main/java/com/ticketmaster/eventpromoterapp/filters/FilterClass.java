@@ -26,6 +26,7 @@ public class FilterClass {
 
     public String filterByEventGenre(String segmentName) throws IOException, InterruptedException {
         HashMap<String, String> eventsBySegmentName = new HashMap<>();
+        ArrayList<String>events=new ArrayList<>();
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(HOST + "&segmentName=" + segmentName))
@@ -47,9 +48,10 @@ public class FilterClass {
             eventsBySegmentName.put("name", event.get("name"));
             eventsBySegmentName.put("id", event.get("id"));
             eventsBySegmentName.put("type", event.get("type"));
+            events.add(eventsBySegmentName.toString());
         }
 
-        return new Gson().toJson(eventsBySegmentName);
+        return events.toString();
     }
 
     public String filterStatesStats(String state) throws Exception {
@@ -116,6 +118,7 @@ public class FilterClass {
 
    public String filterEventsByPromoterId(String promoterId) throws IOException, InterruptedException {
         HashMap<String,String>eventByPromoterId=new HashMap<>();
+        ArrayList<String>events=new ArrayList<>();
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(HOST+"&promoterId="+promoterId))
@@ -138,9 +141,10 @@ public class FilterClass {
             eventByPromoterId.put("name",event.get("name"));
             eventByPromoterId.put("id",event.get("id"));
             eventByPromoterId.put("type",event.get("type"));
+            events.add(eventByPromoterId.toString());
         }
 
-        return new Gson().toJson(eventByPromoterId);
+        return events.toString();
     }
 
    public String filterStatsByPromoterId(String promoterId) throws IOException, InterruptedException {
