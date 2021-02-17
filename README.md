@@ -3,6 +3,12 @@
 
 **Events-Promoters è un programma che permette di studiare i promoter degli eventi che avranno luogo in Australia e Nuova Zelanda,con questo programma l'utente finale ha la possibilità di visualizzare delle statistiche per ogni stato, visualizzare statistiche di uno o più promoter scelti dall'utente (in base all'ID del promoter).Inoltre l'utente potrà avere la possibilità di calcolare/filtrare le statistiche in base a dei filtri scelti dall'utente stesso.Inoltre nell'applicazione è stata predefinita una lista di Stati alla disposizione dell'utente come referimento.abbiamo utilizzato il software Postman per effettuare le varie operazioni sopra citate tramite la porta "localhost:8080". Di seguito sono elencate le rotte che devono essere inserite dopo la porta appena menzionata, per eseguire le relative chiamate. (Il codice del progetto è interamente in java e si trova dentro "src" per eseguire i test abbiamo utilizzato il software postman per verificare il buon funzionamento di ogni rotta.).**
 
+#ESEMPIO DI TEST DI ROTTE
+![Capture](https://user-images.githubusercontent.com/74736550/108231163-c52ff700-7141-11eb-8188-7007059c03e1.PNG)
+
+
+
+
 | Syntax      | Description | INPUT                      |   DESCRIPTION           |    
 | ----------- | ----------- |  --------------------------| ------------------------|                        
 | GET         |  /stats/states           |                            | ritorna le statististiche di ogni rotta                        |
