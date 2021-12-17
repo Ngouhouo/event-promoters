@@ -4,6 +4,12 @@
 **Events-Promoters è un programma che permette di studiare i promoter degli eventi che avranno luogo in Australia e Nuova Zelanda,con questo programma l'utente finale ha la possibilità di visualizzare delle statistiche per ogni stato, visualizzare statistiche di uno o più promoter scelti dall'utente (in base all'ID del promoter).Inoltre l'utente potrà avere la possibilità di calcolare/filtrare le statistiche in base a dei filtri scelti dall'utente stesso.Inoltre nell'applicazione è stata predefinita una lista di Stati alla disposizione dell'utente come referimento.abbiamo utilizzato il software Postman per effettuare le varie operazioni sopra citate tramite la porta "localhost:8080". Di seguito sono elencate le rotte che devono essere inserite dopo la porta appena menzionata, per eseguire le relative chiamate. (Il codice del progetto è interamente in java e si trova dentro "src" per eseguire i test abbiamo utilizzato il software postman per verificare il buon funzionamento di ogni rotta.).**
 
 #ESEMPIO DI TEST DI ROTTE
+
+Events-Promoters is a program that allows you to study the promoters of events that will take place in Australia and New Zealand, with this program the end user has the ability to view statistics for each state, view statistics of one or more promoters chosen by the user (based on the promoter's ID). In addition, the user will be able to calculate / filter statistics based on filters chosen by the user. of the user as a reference. We used the Postman software to carry out the various operations mentioned above through the "localhost: 8080" port. Below are the routes that must be entered after the aforementioned port in order to make the related calls. (The project code is entirely in java and is inside "src" to run the tests we used the postman software to verify the proper functioning of each route.).
+
+#EXAMPLE OF ROUTES TEST
+
+
 ![Capture](https://user-images.githubusercontent.com/74736550/108231163-c52ff700-7141-11eb-8188-7007059c03e1.PNG)
 
 
